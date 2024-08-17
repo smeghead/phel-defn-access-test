@@ -1,0 +1,9 @@
+(ns defn-access\main
+  (:require defn-access\other))
+
+(println other/public-value)
+(println other/private-value)
+
+(println (other/public-function))
+(println (other/private-function))
+

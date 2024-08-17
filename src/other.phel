@@ -1,0 +1,12 @@
+(ns defn-access\other)
+
+(def public-value "this is public value.")
+
+(def- private-value "this is private value. THIS MUST BE INVISIBLE.")
+
+(defn public-function []
+  "this is public function.")
+
+(defn- private-function []
+  "this is private function. THIS MUST BE INVISIBLE.")
+
